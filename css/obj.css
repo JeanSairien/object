@@ -1,0 +1,81 @@
+body{
+	display: block;
+	justify-content: center;
+	background-color: black;
+	margin: 0 auto;
+}
+
+
+div.container-fluid {
+		height:100%;
+		width:1024px;
+		background-color: red;
+		
+}
+div.jumbotron h1, h2, p{
+
+	display: flex;
+	justify-content: center;
+		
+}
+
+div.jumbotron img {
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 250px;
+
+
+
+}
+
+.well{
+	max-width: 890px;
+	margin-top:300px;
+	display: block;
+	justify-content: flex-start;
+	
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 245px;
+      height:245px;
+      margin:0 auto;
+  }
+
+
+div.jumbotron {
+
+		height: 400px;
+		color: gray;
+}
+
+	
+}
+
+div.col-sm-4{
+
+		display: flex;
+		flex-wrap: wrap;
+
+
+}
+
+
+div.col-md-3{
+		float: center;
+		display:flex;
+		flex-wrap:wrap;
+		color: yellow;
+		margin: 0 auto;
+		
+}
+
+div.col-md-3 p{
+	margin: 0;
+	position:center;
+}
+div.col-md-3 img{
+	display:flex;
+	align-items: flex-start;
+
+}
