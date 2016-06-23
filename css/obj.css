@@ -65,7 +65,7 @@ div.col-md-3{
 		float: center;
 		display:flex;
 		flex-wrap:wrap;
-		color: yellow;
+		color: green;
 		margin: 0 auto;
 		
 }
@@ -77,5 +77,45 @@ div.col-md-3 p{
 div.col-md-3 img{
 	display:flex;
 	align-items: flex-start;
+
+}
+
+div.row {
+	
+	background-color: whitesmoke;
+	color: green;
+	margin-top: 50px;
+	margin: 0;
+	
+
+
+}
+
+div.col-lg-6{
+	margin-top: 50px;
+	height: 250px;	
+	background-color: whitesmoke;
+	list-style-position: none;
+	border-radius:50px;
+	text-align: center;
+	
+}	
+
+
+div.col-lg-8 {
+	height: 450px;	
+	background-color: whitesmoke;
+	font-size: 23px;
+	display:flex;
+	flex-direction:row;
+	border-radius:50px;
+
+}
+
+
+div.col-lg-8 iframe{
+	
+	height: 650px;
+	width: 890px;
 
 }
