@@ -62,11 +62,14 @@ div.col-sm-4{
 
 
 div.col-md-3{
-		float: center;
+		
 		display:flex;
 		flex-wrap:wrap;
+		
+		justify-content: center;
+		
 		color: green;
-		margin: 0 auto;
+		margin-left: 300px ;
 		
 }
 
@@ -76,7 +79,7 @@ div.col-md-3 p{
 }
 div.col-md-3 img{
 	display:flex;
-	align-items: flex-start;
+	align-items: center;
 
 }
 
